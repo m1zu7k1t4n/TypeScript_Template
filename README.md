@@ -1,6 +1,6 @@
 # TypeScript Template
 
-NodeVersion: 10.14.2
+NodeVersion: 10.14.2(?)
 
 ## DevTools
 
@@ -10,11 +10,14 @@ NodeVersion: 10.14.2
 
 ## command
 
+`npm install`
+Install the Library into the environment based on package.json
+
 `npm run build`
 Build src_dir, output to build_dir
 
 `npm run watch`
-Monitor , build changes
+Monitor, build changes
 
 `npm test`
 Testing unit_test in test_dir
